@@ -1,10 +1,10 @@
-# PDF Resume Builder — Vue.js Frontend
+# PDF Resume Builder, Vue.js Frontend
 
-A full Vue.js web application that lets users enter their resume data through a guided form interface and generate a polished, downloadable PDF resume on the spot. No Word docs, no messy formatting — just fill it in and get a professional resume out.
+A full Vue.js web application that lets users enter their resume data through a guided form interface and generate a polished, downloadable PDF resume on the spot. No Word docs, no messy formatting, just fill it in and get a professional resume out.
 
 48 commits. 15 branches. This one was built seriously.
 
-> *Birarenze* — automating the most painful part of job hunting is genuinely useful work.
+Automating the most painful part of job hunting is birarenze work and genuinely useful.
 
 ---
 
@@ -42,10 +42,10 @@ project3-frontend-vue/
 │   ├── assets/             # Images and static assets
 │   ├── App.vue             # Root component
 │   └── ClassicTemplate.vue # Resume template component
-├── router/             # Vue Router config
-├── public/             # Static HTML entry
-├── dist/               # Production build output
-└── .github/workflows/  # CI/CD pipeline
+├── router/                 # Vue Router config
+├── public/                 # Static HTML entry
+├── dist/                   # Production build output
+└── .github/workflows/      # CI/CD pipeline
 ```
 
 ---
@@ -58,6 +58,7 @@ npm run serve
 ```
 
 Build for production:
+
 ```bash
 npm run build
 ```
@@ -65,11 +66,9 @@ npm run build
 ---
 
 ## Backend
-
-This is the frontend half of a full-stack project. The backend is at [project2-backend-node-forke](https://github.com/lacebx/project2-backend-node-forke) — handles user auth and data persistence via Node.js + MySQL.
+This is the frontend half of a full-stack project. The backend is at [project2-backend-node-forke](https://github.com/lacebx/project2-backend-node-forke), handles user auth and data persistence via Node.js + MySQL.
 
 ---
 
 ## Context
-
 Built as the frontend component of a capstone-style full-stack project. The goal was to take user-provided resume data, format it beautifully, and export it as a PDF. The 15 branches and 48 commits tell the story of a project that kept growing beyond its original scope.
